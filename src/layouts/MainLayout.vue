@@ -15,7 +15,7 @@
           My Profile
         </q-toolbar-title>
 
-        <div>AGE 21 year old</div>
+        <div>Puttipong panomprai 6304101353</div>
       </q-toolbar>
     </q-header>
 
@@ -57,9 +57,9 @@ const linksList = [
     link: '/MyFrom'
   },
   {
-    title: 'Admin',
+    title: 'Detail',
     caption: 'Users detail.',
-    icon: 'students',
+    icon: 'perm_identity',
     link: '/Dashbord'
   }
 ]

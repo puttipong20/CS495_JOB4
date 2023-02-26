@@ -75,7 +75,6 @@
           ></q-input>
         </q-card-section>
         <q-card-actions align="right">
-          <q-btn flat>Cancel</q-btn>
           <q-btn color="indigo-6" type="submit">Create Account</q-btn>
         </q-card-actions>
       </q-form>
@@ -140,6 +139,8 @@ export default {
       this.FormState.phone = "";
       this.FormState.password.value = "";
       this.FormState.password.confirm = "";
+      alert("Insert complete.");
+      this.$router.push({path:'/DashBord'});
     },
     validateEmail(email) {
       return /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/.test(email);
